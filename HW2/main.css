@@ -1,0 +1,116 @@
+.header{
+	border: 0.1em solid black;
+	display: flex;
+  	align-items: center
+}
+
+.logo{
+	width: 20%;
+	height: auto;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.links{
+	display: inline-block;
+	position: absolute;
+	top: 1.8em;
+	left: 40%;
+}
+
+.inlinks{
+	margin-left: 1em;
+}
+
+.number{
+	position: absolute;
+	top: 1.8em;
+	right: 2em;
+}
+
+.body{
+	margin-top: 1em;
+}
+
+.main{
+	border: 0.1em solid black;
+	float: left;
+	width: 60%;
+}
+
+.mtext{
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text{
+	float: left;
+	width: 50%;
+	vertical-align: top;
+	margin-left: 1em;
+}
+
+.howl{
+	width: 40%;
+	height: auto;
+	float: right;
+	margin-right: 0.5em;
+	vertical-align: top;
+}
+
+.sidebar{
+	border: 0.1em solid black;
+	float: right;
+	width: 30%;
+}
+
+.stext{
+	text-align: center;
+}
+
+.search{
+	margin-left: 2em;
+}
+
+.list{
+	margin-left: 0.4em;
+}
+
+.adv{
+	width: 40%;
+	height: auto;
+	margin-left: 2em;
+	margin-bottom: 0.5em;
+}
+
+.footer{
+	border: 0.1em solid black;
+	margin-top: 21em;
+	text-align: center;
+}
+
+.clearfix:before,
+
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix{
+	clear: both;
+	*zoom: 1;
+}
+
+.icons{
+	margin-top: 0.5em;
+	font-size: 2em;
+}
+
+.credits{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
