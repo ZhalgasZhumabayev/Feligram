@@ -1,0 +1,93 @@
+.main{
+	max-width: 745px;
+	margin: 0 auto;
+}
+
+.logo{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.head{
+	border-bottom: 3px solid blue;
+}
+
+.list{
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+
+.nav{
+	display: inline-block;
+	text-align: center;
+	width: 113.1px;
+	border: 0.5px solid grey;
+	padding: 5px;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.picture{
+	margin: 0 auto;
+	text-align: center;
+	width: 745px;
+}
+
+.inpic{
+	width: 100%;
+	height: auto;
+}
+
+.container{
+	width: 745px;
+	margin: 0 auto;
+}
+
+.sehr{
+	font-family: Arial;
+	font-size: 24px;
+}
+
+.wir{
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.spr{
+	font-family: Georgia;
+	font-size: 24px;
+}
+
+.adr{
+	font-family: Georgia;
+	font-size: 12px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.credits{
+	font-family: Arial;
+	font-size: 12px;
+	color: grey;
+}
