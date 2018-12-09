@@ -1,3 +1,23 @@
+/*Base styles*/
+
+.clearfix:before,
+
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix{
+	clear: both;
+	*zoom: 1;
+}
+
+/*Main styles*/
+
 .header{
 	border: 0.1em solid black;
 	display: flex;
@@ -95,22 +115,6 @@
 	border: 0.1em solid black;
 	margin-top: 1em;
 	text-align: center;
-}
-
-.clearfix:before,
-
-.clearfix:after {
-	content: "";
-	display: table;
-}
-
-.clearfix:after {
-	clear: both;
-}
-
-.clearfix{
-	clear: both;
-	*zoom: 1;
 }
 
 .icons{
