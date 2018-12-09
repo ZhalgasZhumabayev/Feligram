@@ -1,18 +1,36 @@
+/*Base Styles*/
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix{
+	clear: both;
+}
+
 .main{
 	max-width: 745px;
 	margin: 0 auto;
+	background-color: #f6f6f6;
 }
+
+/*Main styles*/
 
 .logo{
 	text-align: center;
 	margin: 0 auto;
 }
 
-.head{
+.header{
 	border-bottom: 3px solid blue;
 }
 
-.list{
+.nav-bar{
 	margin: 0 auto;
 	text-align: center;
 	padding: 0;
@@ -26,6 +44,7 @@
 	padding: 5px;
 	font-family: Arial;
 	font-size: 14px;
+	background-color: #ffffff;
 }
 
 .picture{
@@ -44,46 +63,34 @@
 	margin: 0 auto;
 }
 
-.sehr{
-	font-family: Arial;
-	font-size: 24px;
-}
-
-.wir{
-	font-family: Arial;
-	font-size: 12px;
-}
-
-.spr{
-	font-family: Georgia;
-	font-size: 24px;
-}
-
-.adr{
-	font-family: Georgia;
-	font-size: 12px;
-}
-
-.left{
+.article{
 	float: left;
+	max-width: 477px;
 }
 
-.right{
+.article-section-top{
+	font-family: Arial;
+	font-size: 24px;
+}
+
+.article-section-bottom{
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.aside{
 	float: right;
+	max-width: 266px;
 }
 
-.clearfix:before,
-.clearfix:after {
-	content: "";
-	display: table;
+.aside-section-top{
+	font-family: Georgia;
+	font-size: 24px;
 }
 
-.clearfix:after {
-	clear: both;
-}
-
-.clearfix{
-	clear: both;
+.aside-section-bottom{
+	font-family: Georgia;
+	font-size: 12px;
 }
 
 .credits{
